@@ -21,9 +21,9 @@ class Question {
 
 module.exports = Question;
 
-/*I need to understand why 
-the promise wraps around the const sql 
-if it doesn't appear it needs to be made synchronous. 
+/*I need to understand why
+the promise wraps around the const sql
+if it doesn't appear it needs to be made synchronous.
 Doesn't the table
 I know that the db.run has
 to be made synchronous
