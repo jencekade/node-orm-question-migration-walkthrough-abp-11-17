@@ -6,10 +6,10 @@ class Question {
   static CreateTable() {
     return new Promise(function(resolve) {
       const sql =
-        CREATE TABLE questions (
-          id INTEGER KEY PRIMARY,
+        `CREATE TABLE questions (
+          id INTEGER PRIMARY KEY,
           context TEXT
-        );
+        )`;
 
       db.run(sql, function() {
         resolve("Success");
