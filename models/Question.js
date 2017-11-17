@@ -8,7 +8,7 @@ class Question {
       const sql =
         `CREATE TABLE questions (
           id INTEGER PRIMARY KEY,
-          context TEXT
+          content TEXT
         )`;
 
       db.run(sql, function() {
